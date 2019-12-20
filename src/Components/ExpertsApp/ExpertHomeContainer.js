@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Topbar from '../../Components/Services/Topbar';
+import Topbar1 from '../../Components/Services/Topbar1';
 import './ExpertHomeContainer.css';
 import axios from 'axios';
 
@@ -68,9 +68,11 @@ this.setState({appointments:appointments});
     render(){
         return(
             <>
-        <Topbar title='My Appointments'/>
+        <Topbar1 title='My Appointments'/>
        {this.state.isLoggedIn?<><div className = "ExpertAppContainer">
-       <AppointListView acceptHandler={this.acceptHandler} declineHandler={this.declineHandler} appointments={this.state.appointments}/></div></>:<Link to='/experts/login'><button className='btn btn-lg btn-primary'>Login to continue...</button></Link>}
+       <AppointListView acceptHandler={this.acceptHandler} declineHandler={this.declineHandler} appointments={this.state.appointments}/></div></>:<Link to='/experts/login'><button className='btn btn-lg btn-primary' style = {{marginLeft: '100px'}}>Login to continue...</button></Link>}
+        
+       {this.state.isLoggedIn?<Link className = "signout-link-expert" style = {{textDecoration: 'none'}} to='/experts' onClick={()=>{localStorage.removeItem('expertToken');this.setState({isLoggedIn:false})}}>SIGN OUT</Link>:undefined} 
         </>)
     }
 }

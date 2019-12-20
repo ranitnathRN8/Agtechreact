@@ -46,3 +46,15 @@
     line-height: 30px;
     letter-spacing: 0.25em;
 }
+
+.signout-link-expert{
+    font-family: RobotoB;
+    line-height: 30px;
+    color: black;
+    letter-spacing: 0.25em;
+    position: absolute;
+    margin-left: 1350px;
+    top: 4.5vh;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}

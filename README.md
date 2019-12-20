@@ -1,68 +1,74 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## AGTECH REACT APP
 
-## Available Scripts
+## [](https://github.com/ranitnathRN8/Agtechreact#steps-to-run-in-production)STEPS TO RUN IN PRODUCTION
 
-In the project directory, you can run:
+### [](https://github.com/10XMairing/SiemensAgtech#prep)prep!
 
-### `npm start`
+-   step 0 => install required dependencies
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+npm install
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```
 
-### `npm test`
+### [](https://github.com/10XMairing/SiemensAgtech#run)Run!
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   Case 1 => You have create-react-app installed
 
-### `npm run build`
+```
+npm start
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+OR
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-   Case 2=>You don't have create-react-app installed
 
-### `npm run eject`
+-   step 1 =>Install create-react-app
+```
+npm i -g create-react-app
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+-   step 2 =>  _starts the webpack server in devolopment mode_
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm run start
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
 
-## Learn More
+### [](https://github.com/10XMairing/SiemensAgtech#demo-)DEMO ^
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For demo this  the app is hosted at
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[http://agtech.surge.sh](http://agtech.surge.sh/)
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## [](https://github.com/10XMairing/SiemensAgtech#backend)Technology Stack
 
-### Analyzing the Bundle Size
+**React JS**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+React is a JS library for making ui  ,  [link]([https://reactjs.org/](https://reactjs.org/))
 
-### Making a Progressive Web App
+**react-router**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Used for making client side routing
 
-### Advanced Configuration
+**Axios**
+Used for making the api calls
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+**Bootstrap**
 
-### Deployment
+For getting fast styling although we have also used vanilla CSS
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+**Anchor Link**
 
-### `npm run build` fails to minify
+For getting smooth scrolling in the app
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+### [](https://github.com/10XMairing/SiemensAgtech#reason-for-using-typescript)Reason for using create-react-app 
+
+Webpack still intimidates me. Babel still intimidates me. ESlint still intimidates me. I know how to use all three but whenever I do I feel like I'm not doing it right and that I'm missing out on something that everyone else knows. `create-react-app` encompasses all of these tools with a set of hard defaults. I know the Babel it ships with just works although some features are absent.
+

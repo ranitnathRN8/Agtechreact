@@ -105,6 +105,8 @@ class AccountContainer extends React.Component {
                         <div className='col col-md-4' style ={{fontWeight: '800'}}>My Crops</div>
                         <div className='col col-md-8'><CropList crops={this.state.crops} addCrop={this.addCrop} /></div>
 
+                        <div className='col col-md-4' style={{marginTop:'25px'}}>Upcoming Appointments</div>
+                        <div className='col col-md-8'><AppointmentList appointments={this.state.appointments} /></div>
 
 
                     </div>
@@ -136,18 +138,21 @@ class AppointmentList extends React.Component {
         console.log(activeAppointments);
     }
     render() {
+        if(this.state.appointments.length==0){
+            return <div className='col col-12' style={{marginTop:'25px'}}>No Appointments Accepted</div>
+        }
         // SHOW APPOINTMENTS WHICH ARE ACCEPTED ONLY
-
-        // let appointments=this.props.appointments;
-        // appointments.map((appointment)=>{
-        //     <div className='row' style={{marginBottom:'30px'}} key={i}>
-        //           <div style={{fontWeight:'bold'}}className='col col-md col-8'>{.name}</div>
-        //           <div className='col col-md col-8'>Rs.{crop.expPrice}</div>
-        //         <em><div className='col col-md col-8'>{crop.description}</div></em>
-        //     </div>
-        // })
+        let appointments=this.state.appointments;
+        let list=appointments.map((appointment,i)=>{
+            return(
+            <div className='row' style={{marginBottom:'30px'}} key={i}>
+        <div style={{fontWeight:'bold'}}className='col col-md col-8'>{appointment.expert.firstName} {appointment.expert.lastName}</div>
+                  <div className='col col-md col-8'>{appointment.expert.email}</div>
+                <em><div className='col col-md col-8'>{appointment.expert.expertise}</div></em>
+            </div>)
+        })
         return (
-            <h1>hey</h1>
+        <h1>{list}</h1>
         )
     }
 }
