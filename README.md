@@ -68,7 +68,7 @@ npm i -g create-react-app
 
 ```
 
-npm run start
+npm  start
 
   
 
@@ -129,16 +129,6 @@ For getting fast styling although we have also used vanilla CSS
 
 For getting smooth scrolling in the app
 
-  
-  
-  
-  
-
-#### Reason for using create-react-app
-
-  
-
-Webpack still intimidates me. Babel still intimidates me. ESlint still intimidates me. I know how to use all three but whenever I do I feel like I'm not doing it right and that I'm missing out on something that everyone else knows. `create-react-app` encompasses all of these tools with a set of hard defaults. 
 
 ### Step by step introduction to the UI
 
