@@ -41,7 +41,7 @@ npm run start
 
 For demo this  the app is hosted at
 
-[http://agtech.surge.sh](http://agtech.surge.sh/)
+[http://agtechsiemens.surge.sh](http://agtechsiemens.surge.sh/)
 
 
 ## [](https://github.com/10XMairing/SiemensAgtech#backend)Technology Stack
