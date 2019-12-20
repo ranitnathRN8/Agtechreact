@@ -1,0 +1,201 @@
+@font-face{
+    font-family: BaskervilleR;
+    src: url(../../../Assets/Fonts/LibreBaskerville-Regular.ttf);
+}
+
+@font-face{
+    font-family: BaskervilleB;
+    src: url(../../../Assets/Fonts/LibreBaskerville-Bold.ttf);
+}
+
+@font-face{
+    font-family: RobotoB;
+    src: url(../../../Assets/Fonts/Roboto-Black.ttf);
+}
+
+@font-face{
+    font-family: PoppinsR;
+    src: url(../../../Assets/Fonts/Poppins-Regular.ttf);
+}
+
+.blog-goToMine-button{
+    margin-bottom: 10px;
+    font-family: PoppinsR;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 3;
+    border-radius: 4px;
+    width:30%;
+    height:40px;
+    background-color: #c6bad8;
+    outline:none;
+    border:0px;
+    transition: 0.2s ease-in-out;
+}
+
+.blog-goToMine-button:hover{
+    background:#1c0236;
+    color:white;
+    transition: 0.2s ease-in-out;
+}
+
+.add-new-button{
+        position: absolute;
+        top: -100px;
+        left: 400px;
+        margin-bottom: 10px;
+        font-family: PoppinsR;
+        font-weight: bold;
+        cursor: pointer;
+        z-index: 3;
+        border-radius: 4px;
+        width:30%;
+        height:40px;
+        background-color: #c6bad8;
+        outline:none;
+        border:0px;
+        transition: 0.2s ease-in-out;
+    
+}
+
+.add-new-button:hover{
+    background:#1c0236;
+    color:white;
+    transition: 0.2s ease-in-out;
+}
+
+.submitBlog{
+    
+    margin: 20px 0 0 20px;
+    font-family: PoppinsR;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 3;
+    border-radius: 4px;
+    width:30%;
+    height:40px;
+    background-color: #c6bad8;
+    outline:none;
+    border:0px;
+    transition: 0.2s ease-in-out;
+}
+
+.submitBlog:hover{
+    background:#1c0236;
+    color:white;
+    transition: 0.2s ease-in-out;
+}
+
+.closeBlog{
+    
+    margin: 20px 0 0 40px;
+    font-family: PoppinsR;
+    font-weight: bold;
+    color: ivory;
+    cursor: pointer;
+    z-index: 3;
+    border-radius: 4px;
+    width:29%;
+    height:40px;
+    background-color: #a50b0b;
+    outline:none;
+    border:0px;
+    transition: 0.2s ease-in-out;
+}
+
+.closeBlog:hover{
+    background:#1c0236;
+    color:white;
+    transition: 0.2s ease-in-out;
+}
+
+.No-blog{
+    font-family: PoppinsR;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 8px;
+    
+}
+
+/* .row{
+    background-color: #c6bad8;
+} */
+
+.Blog-heading{
+    font-family: BaskervilleR;
+    font-size: 42px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: #3a3636;
+}
+
+.row{
+    padding: 50px 30px 30px 0;
+}
+
+/* .blog-container{
+    background-color: #3a3636 ;
+    z-index: 10;
+} */
+
+.blog-subject{
+    padding-top: 20px;
+    font-family: PoppinsR;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    color: #3a3636;
+}
+
+.blog-creation{
+    font-family: PoppinsR;
+    font-size: 15px;
+    line-height: 27px;
+    color: #3a3636;
+}
+
+.blog-line{
+        position: absolute; 
+        width: 80%;
+        height: 0px; 
+        border: 1px solid #ADE1B2;
+    
+}
+
+.blog-likes{ 
+    
+   
+    /* background-image: url(../../../Assets/like.png);
+    background-repeat: no-repeat; */
+    padding-right: 10px;
+}
+
+/* .blog-details{
+    padding-left: 20px;
+} */
+
+
+
+.newBlog-container{
+    /* position: absolute;
+    top: 150px; */
+    margin: 20px 0 0 20px;
+}
+
+.newBlog-title{
+    display: block;
+    font-family: PoppinsR;
+    font-size: 1.5em;
+    color: rgb(36, 33, 33);
+    padding-left: 5px;
+}
+
+.newBlog-inputs{
+    width: 80%;
+    padding-top: 25px;
+    border: none;
+    resize: vertical;
+    background: transparent;
+    color: #fff;
+    font-weight: bolder;
+}

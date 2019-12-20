@@ -1,0 +1,218 @@
+@font-face{
+    font-family: BaskervilleR;
+    src: url(../../Assets/Fonts/LibreBaskerville-Regular.ttf);
+}
+
+@font-face{
+    font-family: BaskervilleB;
+    src: url(../../Assets/Fonts/LibreBaskerville-Bold.ttf);
+}
+
+@font-face{
+    font-family: RobotoB;
+    src: url(../../Assets/Fonts/Roboto-Black.ttf);
+}
+
+@font-face{
+    font-family: PoppinsR;
+    src: url(../../Assets/Fonts/Poppins-Regular.ttf);
+}
+
+.serviceContainer{
+    height:50vh;
+    width:100%;
+}
+
+.svgelement{
+    list-style: none; 
+    text-decoration: none;
+}
+.angledDiv{
+    height: 100%;
+    width:100%;
+    background: linear-gradient(180deg, rgba(184, 255, 191, 0) 0%, #FFFFFF 48.85%), #B495E7;
+    /* background: url("../../Assets/back.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    font-family: BaskervilleB;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size:64px;
+    color: #221f1f;
+    padding-bottom: 40px;
+    width: 100%;
+    top:20vh;
+    left:50%;
+    text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.32);
+    transform: translateX(-50%);
+}
+.logoHolder{
+    list-style: none; 
+    text-decoration: none;
+    position: absolute;
+    padding:30px;
+    padding-top:10px;
+}
+.navbar{
+    position: absolute;
+    left:88%;
+    top:5%;
+    
+    
+    /* background: url(../../Assets/ham.png);  */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:25px;
+    width:150px;
+    cursor: pointer;
+}
+.navbar a{
+    color: #221f1f;
+    font-size: 16x;
+    text-decoration: none;
+    font-family: RobotoB;
+    line-height: 25px;
+    font-weight: 800;
+    letter-spacing: 0.22em;
+    transition: 0.2s ease-in-out;
+}
+.navbar>a:hover {
+    color: #2979ff;
+}
+
+.navhome{
+    position: absolute;
+    left:80%;
+    top:5%;
+    
+    /* background: url(../../Assets/ham.png);  */
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:25px;
+    width:150px;
+    cursor: pointer;
+}
+
+.navhome a{
+    color: #221f1f;
+    text-decoration: none;
+    font-size: 16x;
+    text-decoration: none;
+    font-family: RobotoB;
+    line-height: 25px;
+    font-weight: 800;
+    letter-spacing: 0.22em;
+    transition: 0.2s ease-in-out;
+}
+.navhome>a:hover {
+    color: #2979ff;
+}
+.serviceList{
+    margin-top: 20vh;
+    width:100%;
+    height:fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+.serviceItem{
+    text-align: center;
+    padding: 10px;
+    font-size:23px;
+    margin:30px;
+    height:49vh;
+    width:25vw;
+    background:#ecaa2a;
+    cursor: pointer;
+    color:#123456;
+    font-weight: bold;
+}
+.serviceList a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight:bold;
+}
+.serviceItem a:hover{
+    font-weight: bold;
+    color:#123456;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+
+/* Previous */
+
+/* .serviceContainer{
+    height:50vh;
+    width:100%;
+}
+.angledDiv{
+    height: 100%;
+    width:100%;
+    background: url("../../Assets/back.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size:40px;
+    top:38vh;
+    left:50%;
+    transform: translateX(-50%);
+}
+.logoHolder{
+    position: absolute;
+    padding:30px;
+    padding-top:10px;
+}
+.navbar{
+    position: absolute;
+    left:90%;
+    top:5%;
+    font-size:25px;
+    background: url(../../Assets/ham.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:25px;
+    width:25px;
+    cursor: pointer;
+}
+.serviceList{
+    margin-top: 20vh;
+    width:100%;
+    height:fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+.serviceItem{
+    text-align: center;
+    padding: 10px;
+    font-size:23px;
+    margin:30px;
+    height:49vh;
+    width:25vw;
+    background:#ecaa2a;
+    cursor: pointer;
+    color:#123456;
+    font-weight: bold;
+}
+.serviceList a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight:bold;
+}
+.serviceItem a:hover{
+    font-weight: bold;
+    color:#123456;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+} */

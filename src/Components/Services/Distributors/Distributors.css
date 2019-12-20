@@ -1,0 +1,76 @@
+@font-face{
+    font-family: BaskervilleR;
+    src: url(../../../Assets/Fonts/LibreBaskerville-Regular.ttf);
+}
+
+@font-face{
+    font-family: BaskervilleB;
+    src: url(../../../Assets/Fonts/LibreBaskerville-Bold.ttf);
+}
+
+@font-face{
+    font-family: RobotoB;
+    src: url(../../../Assets/Fonts/Roboto-Black.ttf);
+}
+
+@font-face{
+    font-family: PoppinsR;
+    src: url(../../../Assets/Fonts/Poppins-Regular.ttf);
+}
+
+
+.distributionLabel{
+    font-family: RobotoB;
+    font-size: 24px;
+    padding: 0 20px 0 20px;
+}
+
+.formControl{
+    position: flex;
+    padding: 20px;
+    height: 17vh;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    background-color: #e6d3f0;
+}
+
+.formControl1{
+    
+    position: flex;
+    padding: 20px;
+    height: 40vh;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    background-color: #e6d3f0;
+}
+
+.formControl2{
+    
+    position: flex;
+    padding: 20px;
+    height: 10vh;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    background-color: #e6d3f0;
+}
+
+.distributionSelection{
+   
+    width: 30%;
+    height: 4vh;
+}
+
+.distributionInput{
+    height: 5vh;
+}
+
+.flow-contents{
+    margin-left: 80px;
+
+}

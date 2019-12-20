@@ -1,0 +1,56 @@
+.expertSearch-form{
+    width:'50%';
+     position:'relative'; 
+  
+    margin: 50px;
+    left:'50%';
+    transform:'translateX(-50%)';
+}
+
+.expertInput-form{
+    width:'50%';
+     position:'relative'; 
+  
+    margin: 50px;
+    left:'50%';
+    transform:'translateX(-50%)';
+}
+
+.expertInformation-section{
+    z-index: 3;
+    background:#51491b;
+    height:10vh;
+    margin:5px;
+    width:80%;
+    padding:6px;
+    display: flex;
+}
+
+.imageContainer{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../../Assets/expert-image1.png);
+}
+
+.displayImage{
+    background-image: url(../../../Assets/expert-image1.png);
+}
+
+.expertButton{
+  
+    transition: 0.2s ease-in-out;
+}
+
+.expertInfoBox{
+    width:'50%';
+    position:'relative';
+    left:'50%';
+    transform:'translateX(-50%)';
+    background-color: #e1d2e9c2;
+    height:'fitContent';
+}
+
+.anchor{
+    text-decoration: none;
+    color:black;
+}

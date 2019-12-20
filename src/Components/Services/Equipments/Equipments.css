@@ -1,0 +1,78 @@
+@font-face{
+    font-family: BaskervilleR;
+    src: url(../../../Assets/Fonts/LibreBaskerville-Regular.ttf);
+}
+
+@font-face{
+    font-family: BaskervilleB;
+    src: url(../../../Assets/Fonts/LibreBaskerville-Bold.ttf);
+}
+
+@font-face{
+    font-family: RobotoB;
+    src: url(../../../Assets/Fonts/Roboto-Black.ttf);
+}
+
+@font-face{
+    font-family: PoppinsR;
+    src: url(../../../Assets/Fonts/Poppins-Regular.ttf);
+}
+
+.product-name{
+    font-family: BaskervilleR;
+    font-style: inherit;
+    font-weight: 550;
+    font-size: 48px;
+    line-height: 7.028vw;
+    letter-spacing: 0.048em;
+    color: #3a3636;
+}
+
+.product-price{
+    font-family: PoppinsR;
+    font-style: inherit;
+    font-weight: 550;
+    font-size: 24px;
+    /* line-height: 7.028vw; */
+    letter-spacing: 0.048em;
+    color: #3a3636;
+}
+
+.product-button{
+    font-family: PoppinsR;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 3;
+    border-radius: 10px;
+    width:15%;
+    height:40px;
+    background-color: #c6bad8;
+    outline:none;
+    border:0px;
+    transition: 0.2s ease-in-out;
+}
+
+.product-button:hover{
+    background:#1c0236;
+    color:white;
+    transition: 0.2s ease-in-out;
+}
+
+.book-bg{
+    height:fit-content;
+    width:30vw;
+    background: rgba(210, 208, 231, 0.6) ;
+    position: relative;
+    padding: 20px;
+    top:10%;
+    left:50%;
+    transform:translateX(-50%);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.88);
+    border-radius: 20px;
+}
+
+.prediction-labels{
+    font-family: PoppinsR;
+    font-size: 22px;
+    margin: 10px;
+}

@@ -1,0 +1,48 @@
+@font-face{
+    font-family: BaskervilleR;
+    src: url(../../Assets/Fonts/LibreBaskerville-Regular.ttf);
+}
+
+@font-face{
+    font-family: BaskervilleB;
+    src: url(../../Assets/Fonts/LibreBaskerville-Bold.ttf);
+}
+
+@font-face{
+    font-family: RobotoB;
+    src: url(../../Assets/Fonts/Roboto-Black.ttf);
+}
+
+@font-face{
+    font-family: PoppinsR;
+    src: url(../../Assets/Fonts/Poppins-Regular.ttf);
+}
+
+.myClass{
+    background: #a4daeb8f;
+    
+    padding:50px;
+}
+
+.NoAppointments{
+    font-family: PoppinsR;
+    letter-spacing: 0.12em;
+    position: absolute;
+    width: 100%;
+    left: 260px;
+    justify-content: center;
+    text-align: center;
+}
+.lineExpert{
+    position: absolute;
+    top:460px; 
+    width: 1060px;
+    height: 0px; 
+    border: 2px solid rgb(37, 28, 58);
+}
+
+.clientName{
+    font-family: RobotoB;
+    line-height: 30px;
+    letter-spacing: 0.25em;
+}
